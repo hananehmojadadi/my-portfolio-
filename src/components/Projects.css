@@ -1,0 +1,89 @@
+.projects {
+    padding: 80px 50px;
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.projects h2 span {
+    color: #3b82f6;
+}
+
+.filter-buttons {
+    margin-bottom: 30px;
+}
+
+.filter-buttons button {
+    margin: 5px;
+    padding: 8px 16px;
+    background: #1e293b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-buttons button:hover {
+    background: #3b82f6;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project-card:active {
+    transform: scale(0.95);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.project-card .tech {
+    color: #3b82f6;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.status {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+.status.featured {
+    background: #3b82f6;
+    color: white;
+}
+
+.status.completed {
+    background: #10b981;
+    color: white; }
+

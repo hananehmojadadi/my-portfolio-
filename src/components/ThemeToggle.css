@@ -1,0 +1,37 @@
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.theme-toggle button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle button:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}
+
+/* Theme colors for body */
+body.dark {
+    background-color: #0f172a;
+    color: white;
+}
+
+body.light {
+    background-color: #f3f4f6;
+    color: #1e293b;
+}
+
+body.ocean {
+    background-color: #0e4d92;
+    color: #e0f2fe; }
