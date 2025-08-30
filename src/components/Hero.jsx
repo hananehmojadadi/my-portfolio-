@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="buttons">
           <a href="#resume" className="btn primary">View Resume</a>
           
-          {/* لینک به صفحه پروژه‌ها */}
+          {}
           <Link to="/projects" className="btn secondary">
             View Projects
           </Link>

@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="footer-social">
           <h3>Follow Me</h3>
           <div className="social-icons">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+            <a href="https://github.com/hananehmojadadi" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/hananeh-mojadadi-455b44344" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
             <a href="https://www.instagram.com/hana.vex" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             <a href="https://x.com/HananehM35240" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>

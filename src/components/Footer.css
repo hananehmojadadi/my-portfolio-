@@ -1,4 +1,4 @@
-.footer {
+ .footer {
     background: linear-gradient(135deg, #0f172a, #1e293b);
     color: #cbd5e1;
     padding: 60px 50px 40px 50px;
@@ -124,8 +124,8 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-    .footer-container {
+ @media (max-width: 768px) {
+ .footer-container {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -134,4 +134,4 @@
     .social-icons a {
         margin: 10px 8px 0 0;
     }
-}
+}  
