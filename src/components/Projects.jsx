@@ -25,6 +25,18 @@ const projects = [
     tech: "HTML, CSS, JavaScript", 
     desc: "Developed a modern, responsive beauty website to showcase products and services.", 
     status: "Completed" 
+  },
+  { 
+    name: "Calculator App", 
+    tech: "Python", 
+    desc: "Developed a simple calculator in Python to perform basic arithmetic operations.", 
+    status: "Completed" 
+  },
+  { 
+    name: "University Website", 
+    tech: "HTML, CSS, JavaScript, React", 
+    desc: "Designed and developed a modern website for a university with courses, faculty, and admission info.", 
+    status: "Featured" 
   }
 ];
 
@@ -37,7 +49,7 @@ const Projects = () => {
       <h2>My <span>Projects</span></h2>
 
       <div className="filter-buttons">
-        {["All", "Adobe Illustrator", "Photoshop", "React", "HTML", "CSS", "JavaScript"].map(f => (
+        {["All", "Adobe Illustrator", "Photoshop", "React", "HTML", "CSS", "JavaScript", "Python"].map(f => (
           <button 
             key={f} 
             className={filter === f ? "active" : ""} 

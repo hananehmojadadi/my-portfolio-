@@ -6,17 +6,23 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-about">
-          <h3>About Me</h3>
-          <p>Passionate Frontend Developer & Designer creating interactive experiences.</p>
-        </div>
+       <div className="footer-about">
+  <h3>About Me</h3>
+  <p>
+    I am a passionate Frontend Developer<br />
+    Designer creating interactive experiences.<br />
+    I build responsive and user friendly websites <br />
+  </p>
+</div>
 
         <div className="footer-links">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="#hero">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certificates</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>

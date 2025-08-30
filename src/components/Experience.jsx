@@ -1,6 +1,7 @@
 import React from "react";
 import "./Experience.css";
 
+
 const experiences = [
   { 
     title: "Graphics Designer", 
