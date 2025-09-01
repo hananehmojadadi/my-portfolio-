@@ -13,8 +13,15 @@ const Hero = () => {
           A passionate <span>Graphic Designer</span> & <span>Frontend Developer</span>
         </p>
         <div className="buttons">
-          <a href="#resume" className="btn primary">View Resume</a>
-          
+          {}
+        <a
+          href={`${process.env.PUBLIC_URL}/hananeh_mojadadi _CV.pdf`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn primary"
+        >
+          View Resume
+        </a>
           {}
           <Link to="/projects" className="btn secondary">
             View Projects
