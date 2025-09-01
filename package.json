@@ -2,7 +2,7 @@
   "name": "my-portfolio-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hananehmojadadi.github.io/My-Portfolio-",
+   "homepage": "https://hananehmojadadi.github.io/My_Portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.0",
     "@testing-library/dom": "^10.4.1",
