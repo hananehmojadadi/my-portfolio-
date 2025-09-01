@@ -3,8 +3,13 @@
     background: linear-gradient(135deg, #0f172a, #1e293b);
     color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+  
 }
-
 
 .experience h2 {
     font-size: 2.8rem;
@@ -14,6 +19,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .experience h2 span {
     background: linear-gradient(90deg, #3b82f6, #10b981);
     -webkit-background-clip: text;
@@ -24,6 +30,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 35px;
+    justify-items: center;
 }
 
 .exp-card {
@@ -94,4 +101,20 @@
 
 .exp-card:hover .exp-desc {
     color: #f1f5f9;
+}
+
+
+@media (max-width: 768px) {
+    .experience {
+        padding: 80px 20px;
+    }
+
+    .experience h2 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .exp-card {
+        padding: 20px;
+    }
 }
