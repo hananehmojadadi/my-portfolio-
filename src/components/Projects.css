@@ -5,10 +5,6 @@
     text-align: center;
     position: relative;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
 }
 
 .projects::before {
@@ -50,13 +46,9 @@
     -webkit-text-fill-color: transparent;
 }
 
-
+/* Filter buttons */
 .filter-buttons {
     margin-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   
 }
 
 .filter-buttons button {
@@ -82,8 +74,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 35px;
-    justify-items: center;
- 
 }
 
 .project-card {
@@ -97,10 +87,6 @@
     border: 1px solid transparent;
     position: relative;
     overflow: hidden;
-    width: 100%;
-
-    max-width: 350px;
-
 }
 
 .project-card:hover {
@@ -157,26 +143,4 @@
     background: linear-gradient(90deg, #10b981, #059669);
     color: white;
     box-shadow: 0 2px 6px rgba(16, 185, 129, 0.4);
-}
-
-
-@media (max-width: 768px) {
-    .projects {
-        padding: 60px 20px;
-    }
-
-    .projects h2 {
-        font-size: 2rem;
-        margin-bottom: 20px;
-    }
-
-    .filter-buttons {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .project-card {
-        padding: 20px;
-        max-width: 100%;
-    }
 }
